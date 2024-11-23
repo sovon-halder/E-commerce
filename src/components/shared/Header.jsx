@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 export default function Header(){
@@ -24,7 +25,7 @@ export default function Header(){
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
         <li><a>Home</a></li>
-        <li><a>Blog</a> </li>
+        <li><Link to="/blog">Blog</Link> </li>
         <li><a>Products</a></li>
         <li><a>About</a></li>
       </ul>
@@ -34,7 +35,7 @@ export default function Header(){
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
     <li><a>Home</a></li>
-        <li><a>Blog</a> </li>
+        <li><Link to="/blog">Blog</Link></li>
         <li><a>Products</a></li>
         <li><a>About</a></li>
     </ul>
