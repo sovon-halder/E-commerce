@@ -1,0 +1,8 @@
+.main{
+    width: 100%;
+}
+
+.column{
+    width: 50%;
+    display: inline-block;
+}

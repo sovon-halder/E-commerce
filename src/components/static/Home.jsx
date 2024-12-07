@@ -1,23 +1,23 @@
 export default function Home() {
-    return (
-        
-  <div className="flex w-full flex-col lg:flex-row">
-  <div className="card bg-base-300 rounded-box grid h-32 flex-grow place-items-center">
-  <div class="home-photo"> <img alt="image" src="../assets/home.jpg"/></div>
-  </div>
+  return (
 
-  <div className="divider lg:divider-horizontal"></div>
+    <div>
 
-  <div className="card bg-base-300 rounded-box grid h-32 flex-grow place-items-center">
-  <div class="home-photo"> <img alt="image" src="../assets/home.jpg"/></div>
-  </div>
-</div>
+      <div class="main">
+        <div class="left-col column">
+          <img src="../assets/home.jpg" alt="laptop-picture" />
+        </div>
 
 
+        <div class="right-col column">
+          <div>
+            <h1> hello </h1>
+          </div>
+        </div>
 
+      </div>
 
-
-        
-
-    );
+    </div>
+    
+  );
 }
