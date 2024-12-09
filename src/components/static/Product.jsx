@@ -3,41 +3,41 @@ export default function Product() {
         <div>
             <div className="card bg-base-100 w-96 shadow-xl">
   <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
+    <img src="../assets/macbook pro.jpg" alt="macbook pro m1" />
   </figure>
   <div className="card-body">
     <h2 className="card-title">
-      Shoes!
-      <div className="badge badge-secondary">NEW</div>
+    MacBook Pro 14” and 16”
+      <div className="badge badge-secondary">2021</div>
     </h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <p>M2 or M3 chip</p>
     <div className="card-actions justify-end">
-      <div className="badge badge-outline">Fashion</div>
-      <div className="badge badge-outline">Products</div>
+      <div className="badge badge-outline">Learn more</div>
+      <div className="badge badge-outline">Buy</div>
     </div>
   </div>
 </div>
 
 <div className="card bg-base-100 w-96 shadow-xl">
   <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
+    <img src="../assets/macbook pro.jpg" alt="macbook pro m1" />
   </figure>
   <div className="card-body">
     <h2 className="card-title">
-      Shoes!
-      <div className="badge badge-secondary">NEW</div>
+    MacBook Air 13” and 15”
+      <div className="badge badge-secondary">2022</div>
     </h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <p>M2 or M3 chip</p>
     <div className="card-actions justify-end">
-      <div className="badge badge-outline">Fashion</div>
-      <div className="badge badge-outline">Products</div>
+      <div className="badge badge-outline">Learn more</div>
+      <div className="badge badge-outline">Buy</div>
     </div>
   </div>
 </div>
+
+
+
+
         </div>
     );
 }
