@@ -24,18 +24,22 @@
     
 }
 
-.home-heading{
-    
-}
-
-
-
-
-
-
-
 .card{
     position: relative;
     float: left;
     margin: 20px;
 }
+
+.hea-ding{
+    max-width: 800px;
+    padding: 50px;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
