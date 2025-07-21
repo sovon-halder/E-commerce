@@ -5,6 +5,8 @@ import Blog from "../components/static/Blog.jsx";
 import Product from "../components/static/Product.jsx";
 import About from "../components/static/About.jsx";
 import Login from "../login-Signup/login.jsx";
+import Signup from "../login-Signup/signUp.jsx";
+
 
 
 
@@ -34,8 +36,8 @@ const router = createBrowserRouter([
             element:<Login/>,
          },
          {
-          path:"/sign-up",
-          element:<sign-up/>,
+          path:"/signUp",
+          element:<Signup/>,
          },
          
 
