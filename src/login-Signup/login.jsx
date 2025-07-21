@@ -1,6 +1,7 @@
 import { FaUser,FaLock  } from "react-icons/fa";
 
 
+
 export default function Login(){
     return(
         <div>
@@ -12,12 +13,12 @@ export default function Login(){
 
                         <div className="inp-box">
                             <input type="text" placeholder="Username" required/>
-                            <FaUser />
+                            <FaUser className="icon"/>
                         </div>
 
                         <div className="inp-tbox">
                             <input type="password" placeholder="Password" required/>
-                            <FaLock />
+                            <FaLock className="icon" />
                         </div>
 
                         <div className="remember-forget">
