@@ -19,7 +19,7 @@ const  SignUp=()=> {
     dob: null,
     country: "",
     phone: "",
-    timeZone: "IST - Indian Standard Time - GMT +5:30",
+    
   });
 
   const [errors, setErrors] = useState({});
@@ -73,7 +73,7 @@ const  SignUp=()=> {
             name="firstName"
             value={formData.firstName}
             onChange={handleChange}
-            className="w-full border p-2 bg-gray-100"
+            className="w-full border p-2 bg-gray-100 rounded-md "
           />
           {errors.firstName && <p className="text-red-500 text-sm">{errors.firstName}</p>}
         </div>
@@ -85,7 +85,7 @@ const  SignUp=()=> {
             name="lastName"
             value={formData.lastName}
             onChange={handleChange}
-            className="w-full border p-2 bg-gray-100"
+            className="w-full border p-2 bg-gray-100 rounded-md "
           />
           {errors.lastName && <p className="text-red-500 text-sm">{errors.lastName}</p>}
         </div>
@@ -112,7 +112,7 @@ const  SignUp=()=> {
             onChange={handleDateChange}
             dateFormat="dd/MM/yyyy"
             placeholderText="dd/MM/yyyy"
-            className="w-full border p-2 bg-gray-100"
+            className="w-full border p-2 bg-gray-100 rounded-md "
           />
           {errors.dob && <p className="text-red-500 text-sm">Please enter date of birth</p>}
         </div>
@@ -121,10 +121,9 @@ const  SignUp=()=> {
           <label>Present Address</label>
           <input
             type="text"
-            name="PreAddress"
-            value={formData.parentName}
+            name="PreAddress"   
             onChange={handleChange}
-            className="w-full border p-2 bg-gray-100"
+            className="w-full border p-2 bg-gray-100 rounded-md "
           />
           {errors.parentName && <p className="text-red-500 text-sm">{errors.parentName}</p>}
         </div>
@@ -135,7 +134,7 @@ const  SignUp=()=> {
             type="text"
             name="perAddress"
             onChange={handleChange}
-            className="w-full border p-2 bg-gray-100"
+            className="w-full border p-2 bg-gray-100 rounded-md "
           />
         </div>
 
@@ -146,7 +145,7 @@ const  SignUp=()=> {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full border p-2 bg-gray-100"
+            className="w-full border p-2 bg-gray-200 rounded-md "
           />
           {errors.email && <p className="text-red-500 text-sm ">{errors.email}</p>}
         </div>
@@ -158,9 +157,9 @@ const  SignUp=()=> {
             name="pinCode"
             value={formData.pinCode}
             onChange={handleChange}
-            className="w-full border p-2 bg-gray-100"
+            className="w-full border p-2 bg-gray-200 rounded-md "
           />
-          {errors.pinCode && <p className="text-red-500 text-sm  bg-gray-100">{errors.pinCode}</p>}
+          {errors.pinCode && <p className="text-red-500 text-sm  bg-gray-200">{errors.pinCode}</p>}
         </div>
 
         <div>
@@ -185,21 +184,12 @@ const  SignUp=()=> {
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            className="w-full border p-2  bg-gray-100"
+            className="w-full border p-2  bg-gray-200 rounded-md "
           />
           {errors.phone && <p className="text-red-500 text-sm">{errors.phone}</p>}
         </div>
 
-        <div className="md:col-span-2">
-          <label>Time Zone</label>
-          <input
-            type="text"
-            name="timeZone"
-            value={formData.timeZone}
-            disabled
-            className="w-full border p-2 bg-gray-100"
-          />
-        </div>
+
       </div>
 
       <div className="mt-6 text-center">

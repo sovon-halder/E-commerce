@@ -3,6 +3,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube, FaEnvelope, FaPhone, F
 import { Link } from 'react-router-dom';
 
 
+
 export default function Login(){
     return(
         <div>
@@ -61,7 +62,7 @@ export default function Login(){
             </div>
             <textarea placeholder="Leave us a message..." className="bg-gray-200 w-full px-4 py-2 border rounded-md resize-none focus:outline-none h-32"></textarea>
             <div>
-                <p>Don't have an account? <Link to="/src/login-Signup/signUp.jsx" className="link">Register</Link></p>
+                <p>Don't have an account? <Link to="/login-Signup" className="sign-up-btn">Sign-up</Link></p>
             </div>
 
             <div className="flex justify-between items-center">

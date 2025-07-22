@@ -41,8 +41,8 @@ export default function Header(){
     </ul>
   </div>
   <div className="navbar-end">
-  <a href="/login" className="btn btn-primary">Login</a>
-  <a href="/signUp" className="btn btn-primary">Sign Up</a>
+  <Link to="/login" className="btn btn-neutral btn-outline">Login</Link>
+  <Link to="/signUp" className="btn btn-neutral btn-outline">Sign Up</Link>
   </div>
 </div>
 </header>
