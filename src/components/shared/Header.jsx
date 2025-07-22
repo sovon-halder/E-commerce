@@ -42,7 +42,7 @@ export default function Header(){
   </div>
   <div className="navbar-end">
   <Link to="/login" className="btn btn-neutral btn-outline">Login</Link>
-  <Link to="/signUp" className="btn btn-neutral btn-outline">Sign Up</Link>
+  <Link to="/signUp" className="btn btn-neutral btn-outline ml-4 mr-2">Sign Up</Link>
   </div>
 </div>
 </header>
