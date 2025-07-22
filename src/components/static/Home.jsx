@@ -15,7 +15,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="text-center px-6 py-20">
+      <section className="text-center px-6 py-20 bg-gray-300">
         <h1 className="text-4xl font-bold leading-snug">
           Creative designer with experience in the <span className="text-blue-500">digital</span>
         </h1>
@@ -44,44 +44,44 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section className="px-6 py-16">
+      <section className="px-6 py-16 bg-gray-300">
         <h2 className="text-xl font-semibold mb-10">
           What I've <span className="text-blue-500">been working</span> on so far.
         </h2>
 
         {/* Project 1 */}
-        <div className="mb-16">
+        <div className="mb-16 bg-gray-200">
           <h3 className="font-bold text-lg">Pranata Design System.</h3>
           <p className="text-gray-700 mt-2">A scalable UI system for design consistency across platforms.</p>
         </div>
 
         {/* Project 2 */}
-        <div className="mb-16">
+        <div className="mb-16 bg-gray-200">
           <h3 className="font-bold text-lg">Dahu AI Android Auto.</h3>
           <p className="text-gray-700 mt-2">Voice-enabled car assistant experience for smart navigation and control.</p>
         </div>
 
         {/* Project 3 */}
-        <div className="mb-16">
+        <div className="mb-16 bg-gray-200">
           <h3 className="font-bold text-lg">Insurance Mobile App.</h3>
           <p className="text-gray-700 mt-2">Mobile platform for claim submissions and tracking with a simple UI.</p>
         </div>
 
         {/* Project 4 */}
-        <div className="mb-16">
+        <div className="mb-16 bg-gray-200">
           <h3 className="font-bold text-lg">Dunia Travel Website.</h3>
           <p className="text-gray-700 mt-2">Comprehensive online booking website with modern travel UX.</p>
         </div>
 
         {/* Project 5 */}
         <div>
-          <h3 className="font-bold text-lg">SweetEscape Mobile App.</h3>
+          <h3 className="font-bold text-lg bg-gray-200">SweetEscape Mobile App.</h3>
           <p className="text-gray-700 mt-2">Photography booking app that allows users to book and manage sessions easily.</p>
         </div>
       </section>
 
       {/* Logos */}
-      <section className="px-6 py-10 border-t">
+      <section className="px-6 py-10 border-t bg-gray-50">
         <h3 className="text-center font-semibold text-lg mb-4">Previously Worked With.</h3>
         <div className="flex flex-wrap justify-center gap-6">
           <span>Heineken</span>
@@ -94,7 +94,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="px-6 py-12 text-center border-t">
+      <footer className="px-6 py-12 text-center border-t bg-gray-200">
         <h4 className="text-xl font-semibold mb-2">Let's work <span className="text-blue-500">together</span>.</h4>
         <button className="mt-4 px-6 py-2 bg-black text-white rounded">Contact Me</button>
         <p className="text-xs text-gray-500 mt-6">© 2025 Andaru • Jakarta, Indonesia</p>
