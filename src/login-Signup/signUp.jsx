@@ -58,11 +58,11 @@ const  SignUp=()=> {
     // Render the component
 
   return (
-  <div className=" bg-gray-100 flex ">
+  <div className=" bg-gray-100 flex  ">
 
   <form
       onSubmit={handleSubmit}
-      className="max-w-4xl mx-auto p-8 bg-white rounded shadow"
+      className="max-w-4xl mx-auto p-8 bg-white  rounded-3xl shadow-xl "
     >
       <h2 className="text-2xl font-semibold mb-6">Let’s get you started</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -198,7 +198,6 @@ const  SignUp=()=> {
         </button>
       </div>
     </form>
-
   </div>
   );
 
