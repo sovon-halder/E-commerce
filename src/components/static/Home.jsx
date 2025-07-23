@@ -4,16 +4,6 @@ export default function Home() {
 <div>
 
     <div className="font-sans text-gray-900">
-      {/* Header */}
-      <header className="flex justify-between items-center px-6 py-4 border-b">
-        <div className="text-lg font-bold">Andaru</div>
-        <div className="space-x-4">
-          <a href="#" className="text-sm">About me</a>
-          <a href="#" className="text-sm">Portfolio</a>
-          <a href="#" className="text-sm">Contact</a>
-        </div>
-      </header>
-
       {/* Hero Section */}
       <section className="text-center px-6 py-20 bg-gray-300">
         <h1 className="text-4xl font-bold leading-snug">
@@ -96,7 +86,6 @@ export default function Home() {
       {/* Footer */}
       <footer className="px-6 py-12 text-center border-t bg-gray-200">
         <h4 className="text-xl font-semibold mb-2">Let's work <span className="text-blue-500">together</span>.</h4>
-        <button className="mt-4 px-6 py-2 bg-black text-white rounded">Contact Me</button>
         <p className="text-xs text-gray-500 mt-6">© 2025 Andaru • Jakarta, Indonesia</p>
       </footer>
     </div>
