@@ -27,7 +27,7 @@ export default function Header(){
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/blog">Blog</Link> </li>
         <li><Link to="/product">Product</Link> </li>
-        <li><Link to="/about">About</Link> </li>
+        <li><Link to="/about">OUR JOURNALS</Link> </li>
       </ul>
     </div>
     <a className="btn btn-ghost text-xl">daisyUI</a>
@@ -37,7 +37,7 @@ export default function Header(){
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/blog">Blog</Link></li>
         <li><Link to="/product">Product</Link> </li>
-        <li><Link to="/about">About</Link> </li>
+        <li><Link to="/about">OUR JOURNALS</Link> </li>
     </ul>
   </div>
   <div className="navbar-end">
