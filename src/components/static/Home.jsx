@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
 
-      
+
 
       {/* Projects Section */}
       <section className="px-6 py-16 bg-gray-300">
@@ -162,23 +162,10 @@ export default function Home() {
 
 </div>
 
-
-
-
-
-
-
       {/* Logos */}
       <section className="px-6 py-10 border-t bg-gray-50">
         <h3 className="text-center font-semibold text-lg mb-4">Previously Worked With.</h3>
-        <div className="flex flex-wrap justify-center gap-6">
-          <span>Heineken</span>
-          <span>Samsung</span>
-          <span>Mandiri</span>
-          <span>Dunia Travel</span>
-          <span>SweetEscape</span>
-          <span>Riponism</span>
-        </div>
+
       </section>
 
       {/* Footer */}
