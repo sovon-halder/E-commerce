@@ -18,20 +18,54 @@ export default function Home() {
 
       {/* Work Experience */}
       <section className="bg-gray-50 px-6 py-16">
-        <h2 className="text-xl font-semibold mb-10">Work Experience.</h2>
-        <div className="space-y-6">
-          <div>
+        <h2 className="text-xl text-center font-semibold mb-10">Work Experience.</h2>
+        <div className="">
             <h3 className="font-bold">Insurance Company, Lead UX Designer</h3>
-            <p className="text-sm text-gray-600">2019 - Present • Jakarta, Indonesia</p>
-            <p className="text-gray-700 mt-2">Redesigned mobile and web applications for user onboarding and claims.</p>
-          </div>
-          <div>
-            <h3 className="font-bold">Blackberry Messenger, Lead UX Designer</h3>
-            <p className="text-sm text-gray-600">2017 - 2019 • Jakarta, Indonesia</p>
-            <p className="text-gray-700 mt-2">Led UX improvements and redesigned user flows for better retention.</p>
-          </div>
         </div>
+
+
+        {/*image slider section*/}
+        <div className="carousel carousel-center bg-neutral rounded-box max-w-2x1 space-x-4 p-4">
+  <div className="carousel-item">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
+      className="rounded-box" />
+  </div>
+  <div className="carousel-item">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
+      className="rounded-box" />
+  </div>
+  <div className="carousel-item">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
+      className="rounded-box" />
+  </div>
+  <div className="carousel-item">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
+      className="rounded-box" />
+  </div>
+  <div className="carousel-item">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
+      className="rounded-box" />
+  </div>
+  <div className="carousel-item">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
+      className="rounded-box" />
+  </div>
+  <div className="carousel-item">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
+      className="rounded-box" />
+  </div>
+</div>
       </section>
+
+
+      
 
       {/* Projects Section */}
       <section className="px-6 py-16 bg-gray-300">

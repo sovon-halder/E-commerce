@@ -1,6 +1,7 @@
 export default function About() {
     return (
         <div>
+            <section>
             
         <div class="bg-gray-50 py-24 sm:py-32">
   <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
@@ -63,17 +64,26 @@ export default function About() {
   </div>
 </div>
 
+</section>
+
 {/*------slider section------*/}
-<div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0 ">
-        <div class="flex ... bg-white rounded-lg  ">
-  <div class="flex-1 ...">01</div>
-  <div class="contents">
-    <div class="flex-1 ...">02</div>
-    <div class="flex-1 ...">03</div>
-  </div>
-  <div class="flex-1 ...">04</div>
-</div>
-</div>
+
+      <section className="bg-gray-50 px-6 py-16">
+        <h2 className="text-xl font-semibold mb-10">Work Experience.</h2>
+        <div className="space-y-6">
+          <div>
+            <h3 className="font-bold">Insurance Company, Lead UX Designer</h3>
+            <p className="text-sm text-gray-600">2019 - Present • Jakarta, Indonesia</p>
+            <p className="text-gray-700 mt-2">Redesigned mobile and web applications for user onboarding and claims.</p>
+          </div>
+          <div>
+            <h3 className="font-bold">Blackberry Messenger, Lead UX Designer</h3>
+            <p className="text-sm text-gray-600">2017 - 2019 • Jakarta, Indonesia</p>
+            <p className="text-gray-700 mt-2">Led UX improvements and redesigned user flows for better retention.</p>
+          </div>
+        </div>
+      </section>
+
 
         </div>
     );
