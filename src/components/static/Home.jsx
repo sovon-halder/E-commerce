@@ -76,7 +76,7 @@ export default function Home() {
         {/* Project 1 */}
         <div className="mb-16 bg-gray-200">
           <h3 className="font-bold text-lg">Pranata Design System.</h3>
-          <p className="text-gray-700 mt-2">A scalable UI system for design consistency across platforms.</p>
+          
         </div>
 
         {/* Project 2 */}
