@@ -68,45 +68,34 @@ export default function Home() {
 
 
       {/* Projects Section */}
-      <section className="px-6 py-16 bg-gray-300">
+      <section className="px-6 py-16 text-center bg-gray-300">
         <h2 className="text-xl font-semibold mb-10">
           What I've <span className="text-blue-500">been working</span> on so far.
         </h2>
-
-        {/* Project 1 */}
-        <div className="mb-16 bg-gray-200">
-          <h3 className="font-bold text-lg">Pranata Design System.</h3>
-          
-        </div>
-
-        {/* Project 2 */}
-        <div className="mb-16 bg-gray-200">
-          <h3 className="font-bold text-lg">Dahu AI Android Auto.</h3>
-          <p className="text-gray-700 mt-2">Voice-enabled car assistant experience for smart navigation and control.</p>
-        </div>
-
-        {/* Project 3 */}
-        <div className="mb-16 bg-gray-200">
-          <h3 className="font-bold text-lg">Insurance Mobile App.</h3>
-          <p className="text-gray-700 mt-2">Mobile platform for claim submissions and tracking with a simple UI.</p>
-        </div>
-
-        {/* Project 4 */}
-        <div className="mb-16 bg-gray-200">
-          <h3 className="font-bold text-lg">Dunia Travel Website.</h3>
-          <p className="text-gray-700 mt-2">Comprehensive online booking website with modern travel UX.</p>
-        </div>
-
-        {/* Project 5 */}
-        <div>
-          <h3 className="font-bold text-lg bg-gray-200">SweetEscape Mobile App.</h3>
-          <p className="text-gray-700 mt-2">Photography booking app that allows users to book and manage sessions easily.</p>
+        <div className="">
+          <h1>
+            “Original and with an innate understanding of their customer’s needs, the team at Love Nature are always a pleasure to work with.”
+          </h1>
         </div>
       </section>
 
       {/*section for image and text------------------*/}
 
 <div>
+
+
+
+  <section>
+ <div className="flex w-full">
+  <div className="card bg-base-300 rounded-box grid h-20 grow place-items-center">content</div>
+  <div className="divider divider-horizontal">OR</div>
+  <div className="card bg-base-300 rounded-box grid h-20 grow place-items-center">content</div>
+</div>
+  </section>
+
+
+
+
 
 <div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
   <div class="absolute inset-0 -z-10 overflow-hidden">
