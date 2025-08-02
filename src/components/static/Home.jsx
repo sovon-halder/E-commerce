@@ -68,7 +68,7 @@ export default function Home() {
 
 
       {/* Projects Section */}
-      <section className="px-6 py-16 text-center bg-gray-300">
+      <section className="px-6 py-20 text-center bg-gray-300">
         <h2 className="text-xl font-semibold mb-10">
           What I've <span className="text-blue-500">been working</span> on so far.
         </h2>
@@ -85,11 +85,11 @@ export default function Home() {
 
 {/* Section with two cards and a divider */}
 
-  <section>
- <div className="flex w-full">
-  <div className="card bg-primary-content rounded-box grid h-20 grow place-items-center">content</div>
+  <section className="px-6 py-10  bg-accent">
+ <div className="flex w-full  ">
+  <div className="card bg-account rounded-box grid h-20 grow place-items-center">content</div>
   <div className="divider divider-horizontal">OR</div>
-  <div className="card bg-base-300 rounded-box grid h-20 grow place-items-center">content</div>
+  <div className="card bg-secondary-content rounded-box grid h-20 grow place-items-center">content</div>
 </div>
   </section>
 
@@ -98,9 +98,7 @@ export default function Home() {
 
 
 <div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
-  <div class="absolute inset-0 -z-10 overflow-hidden">
 
-  </div>
   <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
     <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
       <div class="lg:pr-4">
