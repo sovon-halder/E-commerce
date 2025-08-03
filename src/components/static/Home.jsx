@@ -87,19 +87,25 @@ export default function Home() {
 
   <section className="px-6 py-10 bg-gray-200 ">
  <div className="flex w-full  ">
-  <div className="card  rounded-box grid h-20 grow place-items-center">
+  <div className="card  inline-block text-center rounded-box grid h-20 grow place-items-center">
 <h6 className="text-center">About us</h6>
-<div className="inline-block text-center">
+<div>
   <h2>Tell website visitors who you are and why they should choose your business.</h2>
 <p>Because when a visitor first lands on your website, you're a stranger to them. They have to get to know you in order to want to read your blog posts, subscribe to your email newsletter, or buy what you're selling.</p>
 </div>
-
-
 <button>Find Out More</button>
-
   </div>
+
+
+
   <div className="divider divider-horizontal">OR</div>
-  <div className="card rounded-box grid h-20 grow place-items-center">content</div>
+
+  <div className="card rounded-box grid grow place-items-center   max-w-2x1 space-x-4 p-4">
+    
+    <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/leaf.jpg"/>
+    
+    
+    </div>
 </div>
   </section>
 
@@ -158,12 +164,6 @@ export default function Home() {
 
 
 </div>
-
-      {/* Logos */}
-      <section className="px-6 py-10 border-t bg-gray-50">
-        <h3 className="text-center font-semibold text-lg mb-4">Previously Worked With.</h3>
-
-      </section>
 
       {/* Footer */}
       <footer className="px-6 py-12 text-center border-t bg-gray-200">
