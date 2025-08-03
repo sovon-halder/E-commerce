@@ -85,11 +85,21 @@ export default function Home() {
 
 {/* Section with two cards and a divider */}
 
-  <section className="px-6 py-10  bg-accent">
+  <section className="px-6 py-10 bg-gray-200 ">
  <div className="flex w-full  ">
-  <div className="card bg-account rounded-box grid h-20 grow place-items-center">content</div>
+  <div className="card  rounded-box grid h-20 grow place-items-center">
+<h6 className="text-center">About us</h6>
+<div className="inline-block text-center">
+  <h2>Tell website visitors who you are and why they should choose your business.</h2>
+<p>Because when a visitor first lands on your website, you're a stranger to them. They have to get to know you in order to want to read your blog posts, subscribe to your email newsletter, or buy what you're selling.</p>
+</div>
+
+
+<button>Find Out More</button>
+
+  </div>
   <div className="divider divider-horizontal">OR</div>
-  <div className="card bg-secondary-content rounded-box grid h-20 grow place-items-center">content</div>
+  <div className="card rounded-box grid h-20 grow place-items-center">content</div>
 </div>
   </section>
 
