@@ -93,7 +93,7 @@ export default function Home() {
   <h2>Tell website visitors who you are and why they should choose your business.</h2>
 <p>Because when a visitor first lands on your website, you're a stranger to them. They have to get to know you in order to want to read your blog posts, subscribe to your email newsletter, or buy what you're selling.</p>
 </div>
-<button>Find Out More</button>
+<button className="btn btn-outline btn-primary">Find Out More</button>
   </div>
 
 
