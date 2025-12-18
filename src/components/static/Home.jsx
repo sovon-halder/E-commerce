@@ -6,25 +6,73 @@ export default function Home() {
     <div className="font-sans text-gray-900">
       {/* Hero Section */}
       <section className="text-center px-6 py-20 bg-gray-300">
-        <h1 className="text-4xl font-bold leading-snug">
-          Creative designer with experience in the <span className="text-blue-500">digital</span>
+        <h1 className="text-3xl Creative desxl font-bold leading-snug">
+          YOUR PARTNER IN SCALABEL  <span className="text-blue-500">DIGITAL</span> GROTH
         </h1>
         <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-          I’m a multidisciplinary product designer with 6+ years of experience.
-          I focus on creating user-centered digital solutions that combine aesthetics and functionality.
+          We provide end-to-end digital marketing services—including SEO, social media management, PPC advertising, branding, and content strategy—to help businesses reach the right audience and achieve sustainable growth.
         </p>
-        <button className="mt-6 px-6 py-2 bg-black text-white rounded">See My Work</button>
+        <button className="mt-6 px-6 py-2 bg-black text-white rounded">Get Started
+        </button>
       </section>
 
       {/* Work Experience */}
       <section className="bg-gray-50 px-6 py-16">
-        <h2 className="text-xl text-center font-semibold mb-10">Work Experience.</h2>
+        <h2 className="text-xl text-center font-semibold mb-10">OUR CORE VALUES </h2>
         <div className="">
-            <h3 className="font-bold">Insurance Company, Lead UX Designer</h3>
+            <h3 className="font-bold text-center">Built on trust, shaped by integrity</h3>
         </div>
 
+{/*------card section------*/}
 
-        {/*image slider section*/}
+<div className="  --color-base-600 flex items-center justify-center min-h-screen">
+
+      <div className="card  w-96 shadow-sm">
+  <figure>
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      alt="Shoes" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title">Radical Integrity</h2>
+    <p>We’ve helped businesses across industries achieve outstanding results and sustainable growth.</p>
+    <div className="card-actions justify-end">
+    </div>
+  </div>
+</div>
+
+
+<div className="card w-96 shadow-sm">
+  <figure>
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      alt="Shoes" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title">For Every Business Size</h2>
+    <p>From startups to enterprises, we tailor solutions to meet the unique needs of your business and industry.</p>
+    <div className="card-actions justify-end">
+    </div>
+  </div>
+</div>
+
+
+
+<div className="card w-96 shadow-sm">
+  <figure>
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      alt="Shoes" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title">Transparent Collaboration</h2>
+    <p>We keep you informed every step of the way—tracking results, refining strategies, and ensuring you stay in control.</p>
+    <div className="card-actions justify-end">
+    </div>
+  </div>
+</div>
+</div>
+        {/*image slider section
         <div className="carousel carousel-center bg-neutral rounded-box max-w-2x1 space-x-4 p-4">
   <div className="carousel-item">
     <img
@@ -62,12 +110,13 @@ export default function Home() {
       className="rounded-box" />
   </div>
 </div>
+*/}
       </section>
 
 
 
 
-      {/* Projects Section */}
+      {/* Projects Section 
       <section className="px-6 py-20 text-center bg-gray-300">
         <h2 className="text-xl font-semibold mb-10">
           What I've <span className="text-blue-500">been working</span> on so far.
@@ -79,7 +128,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/*section for image and text------------------*/}
+      *section for image and text------------------*/}
 
 <div>
 
@@ -89,7 +138,7 @@ export default function Home() {
  <div className="flex w-full ">
   <div className="card  inline-block text-center rounded-box grid h-20 grow place-items-center">
 <h6 className="text-center">About us</h6>
-<div className="p-4">
+<div className="p-4 text-center ">
   <h2>Tell website visitors who you are and why they should choose your business.</h2>
 <p>Because when a visitor first lands on your website, you're a stranger to them. They have to get to know you in order to want to read your blog posts, subscribe to your email newsletter, or buy what you're selling.</p>
 </div>
@@ -102,7 +151,7 @@ export default function Home() {
 
   <div className="card rounded-box grid grow place-items-center   max-w-2x1 space-x-4 p-4">
     
-    <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/leaf.jpg"/>
+    <img src="..//assets/Marketing.jpg"/>
     
     
     </div>

@@ -69,10 +69,9 @@ export default function About() {
 {/*------slider section------*/}
 
       <section className="bg-gray-50 px-6 py-16">
-        <h2 className="text-xl font-semibold mb-10">Work Experience.</h2>
+        <h2 className="text-xl font-semibold mb-10">our CORE VALUES.</h2>
         <div className="space-y-6">
           <div>
-            <h3 className="font-bold">Insurance Company, Lead UX Designer</h3>
             <p className="text-sm text-gray-600">2019 - Present • Jakarta, Indonesia</p>
             <p className="text-gray-700 mt-2">Redesigned mobile and web applications for user onboarding and claims.</p>
           </div>
